@@ -11,7 +11,7 @@ import a_funciones as fn
 
 ## crear copia de db_books datos originales, nombrarla books2 y procesar books2
 
-conn=sql.connect('data\\db_books2') ### crear cuando no existe el nombre de cd  y para conectarse cuando sí existe.
+conn=sql.connect('data\\db_books') ### crear cuando no existe el nombre de cd  y para conectarse cuando sí existe.
 cur=conn.cursor() ###para funciones que ejecutan sql en base de datos
 
 
